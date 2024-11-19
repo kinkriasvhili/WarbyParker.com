@@ -1,4 +1,4 @@
-import { loadHeader } from "./loadHeader.js";
+import { loadHeader } from "./loadheader.js";
 import { products, loadProductsFetch } from "../../data/products.js";
 import { formatCurrency } from "../utils/money.js";
 import { addToFavourite } from "../../data/faovurite.js";

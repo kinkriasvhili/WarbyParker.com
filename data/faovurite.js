@@ -1,5 +1,5 @@
 import { products, getProduct, saveProductToStorage } from "./products.js";
-import { loadHeader } from "../scripts/loadPage/loadHeader.js";
+import { loadHeader } from "../scripts/loadPage/loadheader.js";
 import { loadFavouriteProducts } from "../scripts/favouritePage.js";
 
 export let favourite = JSON.parse(localStorage.getItem("favourite")) || [];

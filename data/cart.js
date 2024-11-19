@@ -1,7 +1,7 @@
 import { getProduct } from "./products.js";
 import { loadCartProducts } from "../scripts/loadPage/cartProductsLoad.js";
 import { loadCartPayment } from "../scripts/loadPage/cartPaymentLoad.js";
-import { loadHeader } from "../scripts/loadPage/loadHeader.js";
+import { loadHeader } from "../scripts/loadPage/loadheader.js";
 import { addToCartAffect } from "../scripts/pageStyles/addToCartAffect.js";
 import { generateUniqueId } from "./order.js";
 export let cart = JSON.parse(localStorage.getItem("cart")) || [];

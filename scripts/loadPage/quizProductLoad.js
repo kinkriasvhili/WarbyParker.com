@@ -3,7 +3,7 @@ import {
   productHtml as productComponent,
   getClickedProductId,
 } from "../../htmlComponents/product.js";
-import { loadHeader } from "./loadHeader.js";
+import { loadHeader } from "./loadheader.js";
 import { addToCart } from "../../data/cart.js";
 import { addToFavourite } from "../../data/faovurite.js";
 import { loadAccessories } from "./accessories.js";

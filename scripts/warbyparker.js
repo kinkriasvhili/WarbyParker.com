@@ -1,6 +1,5 @@
 import { loadProductsFetch, products } from "../data/products.js";
-import { formatCurrency } from "./utils/money.js";
-import { loadHeader } from "./loadPage/loadHeader.js";
+import { loadHeader } from "./loadPage/loadheader.js";
 import { addToFavourite } from "../data/faovurite.js";
 import { loadFooter } from "./loadPage/loadfooter.js";
 import { addToCart } from "../data/cart.js";

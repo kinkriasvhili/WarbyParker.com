@@ -1,4 +1,4 @@
-import { loadHeader } from "./loadPage/loadHeader.js";
+import { loadHeader } from "./loadPage/loadheader.js";
 import { filter } from "./filter.js";
 import { loadProductsFetch } from "../data/products.js";
 import { loadGlassesProducts } from "./loadPage/glassesShopLoad.js";

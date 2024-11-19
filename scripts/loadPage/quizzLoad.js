@@ -1,4 +1,4 @@
-import { loadHeader } from "./loadHeader.js";
+import { loadHeader } from "./loadheader.js";
 import { loadFooter } from "./loadfooter.js";
 import { quizes, addAnswer, removeAnswer } from "../../data/qustions.js";
 import { loadProductsFetch } from "../../data/products.js";

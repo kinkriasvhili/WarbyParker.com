@@ -1,5 +1,5 @@
 import { loadFooter } from "./loadfooter.js";
-import { loadHeader } from "./loadHeader.js";
+import { loadHeader } from "./loadheader.js";
 import {
   loadProductsFetch,
   saveProductToStorage,

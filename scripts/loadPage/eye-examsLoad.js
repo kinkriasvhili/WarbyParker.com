@@ -1,4 +1,4 @@
-import { loadHeader } from "./loadHeader.js";
+import { loadHeader } from "./loadheader.js";
 import { exams } from "../../data/exams.js";
 import { loadProductsFetch } from "../../data/products.js";
 let infoValues = [];
