@@ -487,7 +487,10 @@ main .home-container {
 }
 @media (max-width: 750px) {
   main .home-container {
-    left: 65%;
+    left: 85%;
     transform: translateX(-100%);
+  }
+  .learmore-container button {
+    font-size: 10px;
   }
 }

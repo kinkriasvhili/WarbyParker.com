@@ -20,7 +20,7 @@ function favouriteQuantityCounter() {
 
 export async function loadHeader() {
   try {
-    const response = await fetch("htmlComponents/header.html");
+    const response = await fetch("../../htmlComponents/header.html");
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }

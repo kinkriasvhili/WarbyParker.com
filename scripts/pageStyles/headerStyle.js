@@ -19,12 +19,10 @@ export function headerStyle() {
   const middleHeaderElement = document.querySelector(".header-middle");
   // Function to toggle visibility
   function toggleWindow(button, window, classNameOn, classNameOff) {
-    if (window.classList.contains(classNameOff)) {
-      window.classList.remove(classNameOff);
+    if (!window.classList.add(classNameOn)) {
       window.classList.add(classNameOn);
     } else {
       window.classList.remove(classNameOn);
-      window.classList.add(classNameOff);
     }
   }
 

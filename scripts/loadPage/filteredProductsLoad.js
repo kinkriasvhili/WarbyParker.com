@@ -3,6 +3,7 @@ import { addToFavourite } from "../../data/faovurite.js";
 import { addToCart } from "../../data/cart.js";
 import { products } from "../../data/products.js";
 import { loadProductsFetch } from "../../data/products.js";
+import { getClickedProductId } from "../../htmlComponents/product.js";
 export async function loadFilteredProducts(type) {
   await loadProductsFetch();
   let filterList = [];
@@ -68,11 +69,12 @@ export async function loadFilteredProducts(type) {
   });
   productsContainerElement.innerHTML = productsHtml;
   filteredUrl(productNumbers, type);
+  getClickedProductId();
+  addToCart();
+  addToFavourite();
 }
 
 function filteredUrl(productNumbers, type) {
-  addToCart();
-  addToFavourite();
   let productsHtml = ``;
   const url = new URL(window.location.href);
   let productUrl = url.searchParams.get("products");

@@ -1,6 +1,6 @@
 export async function loadFooter() {
   try {
-    const response = await fetch("htmlComponents/footer.html");
+    const response = await fetch("../../htmlComponents/footer.html");
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }

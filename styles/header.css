@@ -232,11 +232,15 @@ Media Query for 1200px and Below */
   }
   .header-middle {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
     position: absolute;
     left: 0;
+    right: 0;
     z-index: 10;
     top: 90px;
-    background-color: white;
+    background: radial-gradient(circle, white 20%, rgba(104, 104, 104, 0) 100%);
     height: 100%;
     text-align: top;
     max-height: 0px; /* Initially collapsed */
@@ -261,15 +265,25 @@ Media Query for 1200px and Below */
     font-weight: bold;
     margin-bottom: 10px;
   }
+
+  /*  */
+
+  /* Default styles for all the elements (reset everything) */
+
   .show-window-getPrescription,
   .show-window-sunGlasses,
   .show-window-eyeGlasses,
   .show-window-homeTryOn {
-    top: 0px;
-    overflow: hidden;
-    max-width: 30vw;
-    right: -40vw;
+    all: unset; /* Resets all properties to their initial state */
   }
+
+  .show-window-getPrescription .glasses-window-section,
+  .show-window-sunGlasses .glasses-window-section,
+  .show-window-eyeGlasses .glasses-window-section,
+  .show-window-homeTryOn .glasses-window-section {
+    all: unset; /* Resets the inner sections as well */
+  }
+  /*  */
   .singInText {
     display: none;
   }
